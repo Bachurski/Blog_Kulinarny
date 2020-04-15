@@ -10,20 +10,10 @@ window.addEventListener("scroll", function () {
     } else widthNav.style.width = "100vw";
 });
 /****** RWD ********/
-/** do zrobienia inaczej 
-const mediaPhone = window.matchMedia("(max-width: 1000px)");
-// if (mediaPhone.matches) {
-//     console.log(window.outerWidth + 'kom');
-//     document.body.style.fontSize = "10px";
-// };
-mediaPhone.addEventListener("change", function (e) {
-    if (mediaPhone.matches) {
-        console.log(window.outerWidth + 'kom');
-        document.body.style.fontSize = "1em";
+// const mediaPhone = window.matchMedia("(max-width: 1000px)");
 
-    } else document.body.style.fontSize = "20px";
-});
-*/
+
+
 /**** Body section ****/
 
 
