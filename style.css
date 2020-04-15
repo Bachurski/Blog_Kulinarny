@@ -1,0 +1,89 @@
+/********** Reset *********/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 30px;
+    font-family: helvetica, sans-serif;
+    background-image: url(img/leaves.png);
+    height: 300vh;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+/********* Nawigacja *********/
+
+.contenerNav {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 100vw;
+    display: flex;
+    transform: translateX(-50%);
+    background-color: rgba(100, 100, 100, 0.349);
+    z-index: 1;
+    transition: .3s linear;
+}
+
+.contenerNav a {
+    text-decoration: none;
+    flex-basis: 20%;
+    align-self: center;
+    flex-grow: 1;
+    height: 100%;
+    padding: 20px 0;
+    color: cornsilk;
+    transition: .3s linear;
+}
+
+.contenerNav a:hover {
+    background-color: black;
+    color: darkkhaki;
+}
+
+.contenerNav li {
+    list-style-type: none;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.contenerNav span {
+    justify-items: center;
+}
+
+/******* img Head ********/
+.imgHead {
+    background-image: url(img/imgHead2B.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.txtHead {
+    position: absolute;
+    top: 35vh;
+    left: 10vw;
+    background-color: #64646459;
+    padding: 20px;
+    color: rgb(255, 248, 220);
+    border-radius: 5%;
+    font-size: 1.1em;
+}
+
+/******** body ********/
+.bodySection {
+    position: relative;
+    width: 80vw;
+    background-color: #f6f0e346;
+    box-shadow: 0px 0px 38px 30px rgba(46, 46, 46, 0.233);
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
